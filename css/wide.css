@@ -1,0 +1,170 @@
+@media (min-width: 992px) { 
+    #menu{
+        display: inline-block;
+    }
+    .alertBox #closeError{
+        padding-left: 40px;
+    }
+    .alertBox #closeError:hover{
+        background-color: none!important;
+    }
+    .nav{
+        display: inline-block!important;
+        background-color: unset;
+        width: unset;
+        right: 30px;
+        top: 36px;
+        padding-top: 0px;
+        z-index: 9999;
+    }
+    
+    #slideshow{
+        width: inherit;
+    }
+    .nav a,nav p{
+        color: #fff;
+        font-size: 18px;
+        margin-right: 55px;
+        transition: color 1s ease;
+    }
+    .nav a:hover{
+        color: #FFCC36;
+        text-decoration: none;
+    }
+    .header{
+        padding-left: 80px;
+    }
+    .bokForm{
+        width: 80%;
+    }
+    input[type=date]{
+        height: 40px;
+        width: 82%;
+        padding-left:10px;
+    }
+    .bokForm .row{
+        justify-content: center;
+    }
+    label[for=checkin], label[for=checkout]{
+        font-size: 22px;
+    }
+    .subbtn.jost, .subbtn.lora{
+        padding: 12px 60px;
+        border: 0px;
+        font-size: 19px;
+    }
+    .popribben,.desribben, .typeribben,.my-booking-setting{
+        padding: 0px 150px!important;
+    }
+    .textalign.center{
+        font-size: 40px;
+    }
+    .texttitle{
+        font-size: 22px;
+    }
+    .review p{
+        font-size: 17px;
+    }
+    .textsection img{
+        width: 22px;
+        height: 25px;
+    }
+    .review{
+        width: 60px;
+    }
+    .b-type{
+        margin-bottom: 27px;
+    }
+    .footer .row .col-6{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .footer{
+        padding-top: 30px;
+        padding-right: 150px;
+        padding-left: 150px;
+    }
+    .why-ribben .row{
+        justify-content: center;
+        align-items: center;
+    }
+    .why-title{
+        margin-bottom: 30px;
+    }
+    .reverse{
+        flex-direction: row-reverse;
+    }
+    .login-form{
+        justify-content: center;
+        align-items: center;
+    }
+    .upcoming-booking, .past-booking{
+        padding:0px 250px!important;
+    }
+    .wide-form-group{
+        margin-top: 11px;
+    }
+    .acc-detail-photowall{
+        align-items: center;
+    }
+    .padding-ribben{
+        padding-right: 300px;
+        padding-left: 300px;
+    }
+    .template-line{
+        width: 70%;
+    }
+    .detail-box-reset{
+        padding-top: 20px;
+    }
+    .review-col-template{
+        align-self: flex-end;
+    }
+    #collapseExample{
+        width: 900px;
+        padding-left: 300px;
+    }
+    .promte-line{
+        margin: 100px 0px;
+    }
+    .promte-line p{
+        font-size: 22px;
+    }
+    .wrap-results{
+        width: 700px;
+        margin: auto;
+    }
+    .wrap-results.row{
+        flex-direction: row;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .result-detail{
+        margin-bottom: 0px;
+        margin-top:10px;
+    }
+    .img-one-size.img-mb-review{
+        float: left;
+
+        object-fit: cover;
+        transition: opacity 1s ease;
+    }
+    .each-img-one-size-lg{
+        float: left;
+        width: 900px;
+        height: 600px;
+        object-fit: cover;
+    }
+    .process_bar p{
+        font-size: 20px;
+    }
+    .detail_box{
+        width: 17%;
+    }
+    #header_submit{
+        width: 30%;
+    }
+    .img-table{
+        text-align: center;
+    }
+ }
